@@ -1,5 +1,5 @@
 import react from "react";
-
+import Grid from "@mui/material/Grid";
 import Panel from "./Panel";
 
 
@@ -20,9 +20,11 @@ function RenderPanels(props) {
         });
 
     return(
-        <div>
-            {displayPanels}
-        </div>
+        <Grid container justifyContent="left" spacing={{ xs:2, md:3 }}>
+            <div>
+                {displayPanels}Í
+            </div>
+        </Grid>
     );
 }
 
