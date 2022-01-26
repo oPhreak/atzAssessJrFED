@@ -6,15 +6,15 @@ import Panel from "./Panel";
 function RenderPanels(props) {
     const panels = props.products;
 
-    const displayPanels = panels.map((index) => {
+    const displayPanels = panels.map((panel, index) => {
         return (
                 <Panel
                     key = {index.toString()}
                     id = {index}
-                    img = {panels.img}
-                    brand = {panels.brand}
-                    name = {panels.name}
-                    price = {panels.price}
+                    img = {panel.img}
+                    brand = {panel.brand}
+                    name = {panel.name}
+                    price = {panel.price}
                 />
         );
         });

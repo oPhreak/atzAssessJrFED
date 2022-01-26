@@ -15,7 +15,7 @@ const products = [
     },
     {
         id: 3,
-        img: "/products/Image 1.jpg",
+        img: "/products/Image 3.jpg",
         brand: "Wilfred",
         name: "Seattle",
         price: "$79"
@@ -29,14 +29,14 @@ const products = [
     },
     {
         id: 5,
-        img: "/products/Image 1.jpg",
+        img: "/products/Image 5.jpg",
         brand: "Babaton",
         name: "Boston",
         price: "$119"
     },
     {
         id: 6,
-        img: "/products/Image 1.jpg",
+        img: "/products/Image 6.jpg",
         brand: "Wilfred Free",
         name: "Denver",
         price: "$99"
