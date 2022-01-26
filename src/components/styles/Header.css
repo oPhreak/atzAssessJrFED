@@ -1,10 +1,24 @@
+@font-face {
+    font-family: 'Chonburi-Regular';
+    src: local('Chonburi-Regular'), url(../../fonts/Chonburi-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'QuattrocentoSans-Regular';
+    src: local('QuattrocenoSans-Regular'), url(../../fonts/QuattrocentoSans-Regular.ttf) format("truetype");
+}
 
 .title-style{
     color: black;
-    letter-spacing: 0px;
+    letter-spacing: -2px;
     font-family: "Chonburi-Regular";
+    font-weight: 100;
+    font-stretch: ultra-condensed;
 }
 
 .blurb-style{
     color: black;
+    letter-spacing: -1px;
+    font-family: "QuattrocentoSans-Regular";
+    font-weight: 200;
 }

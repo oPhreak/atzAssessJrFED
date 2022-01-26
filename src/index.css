@@ -2,3 +2,8 @@
     font-family: 'Chonburi-Regular';
     src: local('Chonburi-Regular'), url(./fonts/Chonburi-Regular.ttf) format("truetype");
 }
+
+@font-face {
+    font-family: 'QuattrocentoSans-Regular';
+    src: local('QuattrocenoSans-Regular'), url(./fonts/QuattrocentoSans-Regular.ttf) format("truetype");
+}
