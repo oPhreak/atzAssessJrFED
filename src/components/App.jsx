@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import Button from '@mui/material/Button';
+
 import RenderPanels from "./RenderPanels";
 import products from "../products";
-import Button from '@mui/material/Button';
+import Header from "./Header";
 
 
 
@@ -24,11 +26,11 @@ function App() {
     results = allProducts;
     }
 
-    return(
+    return (
         <div>
+            <Header />
             <RenderPanels products = {results}/>
         </div>
-
     );
 }
 
