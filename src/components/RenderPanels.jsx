@@ -1,4 +1,3 @@
-import react from "react";
 import Grid from "@mui/material/Grid";
 import Panel from "./Panel";
 
