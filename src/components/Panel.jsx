@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles/Panel.css";
 
 function Panel(props) {
     return (
