@@ -7,7 +7,7 @@ function Navbar() {
             <div>
                 <SearchIcon />
             </div>
-            <div item xs>
+            <div>
                 Dresses
             </div>
             <div className="push">

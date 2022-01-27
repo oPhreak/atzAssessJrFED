@@ -3,9 +3,21 @@
     src: local('QuattrocentoSans-Regular'), url(../../fonts/QuattrocentoSans-Regular.ttf) format("truetype");
 }
 
-.background {
-    color: #f7f7f7;
+@media only screen and (max-width: 900px){
+    .footer-functionals {
+        display: none;
+    }
+    .footer-get-help {
+        display: none;
+    }
+    .footer-my-account {
+        display: none;
+    }
+    .footer-about-us {
+        display: none;
+    }
 }
+
  ::placeholder {
     font-family: 'QuattrocentoSans-Regular';
      color: black;
@@ -14,8 +26,49 @@
 
  .footer-all {
     font-family: 'QuattrocentoSans-Regular';
+    margin-top: auto;
  }
+
+
 
  .footer-info {
      background-color: #f7f7f7;
+     display: flex;
+     column-gap: 10px;
  }
+
+ .footer-functionals {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     row-gap: 3px;
+}
+
+ .footer-info-left {
+     margin-left: auto;
+ }
+ .footer-heading {
+     color: black;
+     opacity: 60%;
+ }
+
+ .footer-get-help {
+     margin: 3px;
+ }
+
+ .footer-my-account {
+    margin: 3px;
+}
+
+.footer-about-us {
+    margin: 3px;
+}
+
+.footer-bottom {
+    color: black;
+    display: flex;
+}
+
+.footer-black-text {
+    color: #ffffff;
+}

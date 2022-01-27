@@ -7,7 +7,7 @@ function RenderPanels(props) {
 
 
     return(
-        <Grid container spacing={{ xs: 2, md: 3 }}>
+        <Grid container spacing={{ xs: 1, md: 2 }}>
             {Array.from(panels).map((panel, index) => (
                 <Grid item xs={6} sm={6} md={4} key={index}>
                     <Panel

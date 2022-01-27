@@ -1,99 +1,133 @@
-import Grid from "@mui/material/Grid";
-import Box from "@mui/material/Box";
+
 import "./styles/Footer.css";
 
 function Footer() {
 
+    function MobileFooter() {
+        return ""
+    }
+
 
     return (
-        <section className="footer-all">
-           <Grid container spacing={2} direction="row" className="footer-info">
-                <Grid container item direction="column" className="footer-functionals">
-                    <Grid item xl={0} className="footer-heading">
+        <div className="footer-all">
+           <div className="footer-info">
+                <div className="footer-functionals">
+                    <div item xl={0} className="footer-heading">
                         SHOPPING IN:
-                    </Grid>
-                    <Grid item className="region-select">
+                    </div>
+                    <div item className="region-select">
                         Canada, $CAD, EN
-                    </Grid>
-                    <Grid item className="footer-heading">
+                    </div>
+                    <div item className="footer-heading">
                         JOIN OUR MAILING LIST
-                    </Grid>
-                    <Grid item >
+                    </div>
+                    <div item >
                         <form>
                             <input type="text" id="emailID" name="email" placeholder="Enter Email"/>
                         </form>
-                    </Grid>
+                    </div>
 
-                </Grid>
+                </div>
 
-                <Grid container item direction="column" className="footer-info-left">
-                    <Grid className="footer-heading">
+                <div container item direction="column" className="footer-info-left">
+                    <div className="footer-heading">
                         GET HELP
-                    </Grid>
-                    <Grid className="footer-links">
+                    </div>
+                    <div className="footer-get-help">
                         Live Chat Now
-                        <br />
+                    </div>
+                    <div className="footer-get-help">
                         Contact Us
-                        <br />
+                    </div>
+                    <div className="footer-get-help">
                         Shipping
-                        <br />
+                    </div>
+                    <div className="footer-get-help">
                         Returns & Exchanges
-                        <br />
+                    </div>
+                    <div className="footer-get-help">
                         Payment & Security
-                        <br />
+                    </div>
+                    <div className="footer-get-help">
                         Special Orders
-                        <br />
+                    </div>
+                    <div className="footer-get-help">
                         Size Guide
-                    </Grid>        
-                </Grid>
+                    </div>        
+                </div>
 
-                <section className="footer-info-center">
-                    <section className="footer-heading">
+                <div className="footer-info-center">
+                    <div className="footer-heading">
                         MY ACCOUNT
-                    </section>
-                    <section className="footer-get-help">
+                    </div>
+                    <div className="footer-my-account">
                         Track an Order
-                        <br />
+                    </div>
+                    <div className="footer-my-account">
                         Order History
-                        <br />
+                    </div>
+                    <div className="footer-my-account">
                         My Wishlist
-                        <br />
+                    </div>
+                    <div className="footer-my-account">
                         Find a Wishlist
-                        <br />
+                    </div>
+                    <div className="footer-my-account">
                         Account Settings
-                        <br />
+                    </div>
+                    <div className="footer-my-account">
                         Sign Out
-                    </section>
-                </section>
+                    </div>
+                </div>
 
-                <section className="footer-info-right">
-                    <section className="footer-heading">
+                <div className="footer-info-right">
+                    <div className="footer-heading">
                     ABOUT US
-                    </section>
-                    <section className="footer-about-us">
+                    </div>
+                    <div className="footer-about-us">
                         Boutiques
-                        <br />
+                    </div>
+                    <div className="footer-about-us">
                         Careers
-                        <br />
+                    </div>
+                    <div className="footer-about-us">
                         Gift Cards
-                        <br />
+                    </div>
+                    <div className="footer-about-us">
                         About Aritzia
-                        <br />
+                    </div>
+                    <div className="footer-about-us">
                         Corporate Responsibility
-                        <br />
+                    </div>
+                    <div className="footer-about-us">
                         Accessibility
-                        <br />
+                    </div>
+                    <div className="footer-about-us">
                         Investor Relations
-                        <br />
+                    </div>
+                    <div className="footer-about-us">
                         Artistic License
-                    </section>
-                </section>
+                    </div>
+                </div>
 
-            </Grid>
+            </div>
 
+            <div className="footer-bottom">
+                <div className="footer-black-text">
+                    Privacy Policy
+                </div>
+                <div className="footer-black-text">
+                    Privacy Policy
+                </div>
+                <div className="footer-black-text">
+                    Privacy Policy
+                </div>
+                <div className="footer-black-text">
+                    Privacy Policy
+                </div>
+            </div>
 
-
-        </section>
+        </div>
     );
 }
 
