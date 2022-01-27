@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'QuattrocentoSans-Regular';
+    src: local('QuattrocenoSans-Regular'), url(../../fonts/QuattrocentoSans-Regular.ttf) format("truetype");
+}
+
+.background {
+    color: #f7f7f7;
+}
