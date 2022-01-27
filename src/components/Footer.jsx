@@ -17,8 +17,7 @@ function Footer() {
                         JOIN OUR MAILING LIST
                     </section>
                     <form>
-                        <label for="email"> Enter Email</label>
-                        <input type="text" id="email" name="email" />
+                        <input type="text" id="emailID" name="email" placeholder="Enter Email"/>
                     </form>
 
                 </section>
