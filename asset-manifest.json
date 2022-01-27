@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/atzAssessJrFED/static/css/main.c8177518.css",
+    "main.js": "/atzAssessJrFED/static/js/main.8fe5a56c.js",
+    "static/media/Chonburi-Regular.ttf": "/atzAssessJrFED/static/media/Chonburi-Regular.a3f676c3979876c3e6f4.ttf",
+    "static/media/QuattrocentoSans-Regular.ttf": "/atzAssessJrFED/static/media/QuattrocentoSans-Regular.a47ea0ec4eb3f8de957b.ttf",
+    "index.html": "/atzAssessJrFED/index.html",
+    "main.c8177518.css.map": "/atzAssessJrFED/static/css/main.c8177518.css.map",
+    "main.8fe5a56c.js.map": "/atzAssessJrFED/static/js/main.8fe5a56c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8177518.css",
+    "static/js/main.8fe5a56c.js"
+  ]
+}
