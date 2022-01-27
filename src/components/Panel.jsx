@@ -1,6 +1,8 @@
 import React from "react";
 import "./styles/Panel.css";
 
+
+//should use a flexbox here instead, hardcoding spacing is no fun
 function Panel(props) {
     return (
         <div className="panel">

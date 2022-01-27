@@ -5,7 +5,7 @@ const products = [
         brand: "Wilfred Free",
         name: "Chicago",
         price: "$79",
-        type: "summer"
+        filterkey: "summer"
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ const products = [
         brand: "Babaton",
         name: "St. Louis",
         price: "$119",
-        type: "spring"
+        filterkey: "spring"
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ const products = [
         brand: "Wilfred",
         name: "Seattle",
         price: "$79",
-        type: "summer"
+        filterkey: "summer"
     },
     {
         id: 4,
@@ -29,7 +29,7 @@ const products = [
         brand: "Wilfred",
         name: "Austin",
         price: "$89",
-        type: "spring"
+        filterkey: "spring"
     },
     {
         id: 5,
@@ -37,7 +37,7 @@ const products = [
         brand: "Babaton",
         name: "Boston",
         price: "$119",
-        type: "summer"
+        filterkey: "summer"
     },
     {
         id: 6,
@@ -45,7 +45,7 @@ const products = [
         brand: "Wilfred Free",
         name: "Denver",
         price: "$99",
-        type: "summer"
+        filterkey: "summer"
     }
 ];
 
