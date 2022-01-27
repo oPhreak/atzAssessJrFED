@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'QuattrocentoSans-Regular';
+    src: local('QuattrocentoSans-Regular'), url(../../fonts/QuattrocentoSans-Regular.ttf) format("truetype");
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'QuattrocentoSans-Regular';
+    font-weight: 100;
+    column-gap: 16px;
+}
+
+.push{
+    margin-left: auto;
+}

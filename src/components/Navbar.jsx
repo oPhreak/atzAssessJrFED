@@ -1,22 +1,22 @@
 import SearchIcon from '@mui/icons-material/Search';
-import Grid from "@mui/material/Grid";
+import "./styles/Navbar.css";
 
 function Navbar() {
     return (
-        <Grid container>
-            <Grid item xs={1}>
+        <div className="flex-container">
+            <div>
                 <SearchIcon />
-            </Grid>
-            <Grid item xs>
+            </div>
+            <div item xs>
                 Dresses
-            </Grid>
-            <Grid item xs={1}>
+            </div>
+            <div className="push">
                 MENU
-            </Grid>
-            <Grid item xs={1}>
+            </div>
+            <div>
                 BAG
-            </Grid>
-        </Grid>
+            </div>
+        </div>
     );
 }
 

@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'QuattrocentoSans-Regular';
-    src: local('QuattrocenoSans-Regular'), url(../../fonts/QuattrocentoSans-Regular.ttf) format("truetype");
+    src: local('QuattrocentoSans-Regular'), url(../../fonts/QuattrocentoSans-Regular.ttf) format("truetype");
 }
 
 .title-style{
