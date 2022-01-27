@@ -3,13 +3,9 @@
     src: local('QuattrocentoSans-Regular'), url(../../fonts/QuattrocentoSans-Regular.ttf) format("truetype");
 }
 
-.filter-menu {
-    display: flex;
-    font-family: 'QuattrocentoSans-Regular';
-    
-
-}
-
 .filter-item {
-    margin: 1px;
+    border-style: none;
+    background-color: #f7f7f7;
+    color: black;
+    font-family: 'QuattrocentoSans-Regular';
 }

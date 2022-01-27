@@ -3,15 +3,19 @@ import Button from '@mui/material/Button';
 
 import RenderPanels from "./RenderPanels";
 import products from "../products";
+import filterSet from "../filters";
 import Navbar from "./Navbar";
 import Header from "./Header";
 import Footer from "./Footer";
+import DisplayFilters from "./DisplayFilters";
+
 
 
 
 
 function App() {
     var allProducts = products;
+    var allFilters = filterSet;
     const [filters, setFilters] = useState([]); // Add filters in here
 
     // User selects a filter option
@@ -63,6 +67,7 @@ function App() {
         <div>
             <Navbar />
             <Header />
+            <DisplayFilters filters = {allFilters}/>
             <RenderPanels products = {results}/>
             <Footer />
         </div>
