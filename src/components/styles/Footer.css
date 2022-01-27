@@ -10,5 +10,12 @@
     font-family: 'QuattrocentoSans-Regular';
      color: black;
      opacity: 0.4;
-     
+ }
+
+ .footer-all {
+    font-family: 'QuattrocentoSans-Regular';
+ }
+
+ .footer-info {
+     background-color: #f7f7f7;
  }

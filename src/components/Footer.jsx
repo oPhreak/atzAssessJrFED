@@ -1,32 +1,36 @@
+import Grid from "@mui/material/Grid";
+import Box from "@mui/material/Box";
 import "./styles/Footer.css";
 
 function Footer() {
 
 
     return (
-        <section>
-           <section className="footer-info">
-                <section className="footer-functionals">
-                    <section className="footer-heading">
+        <section className="footer-all">
+           <Grid container spacing={2} direction="row" className="footer-info">
+                <Grid container item direction="column" className="footer-functionals">
+                    <Grid item xl={0} className="footer-heading">
                         SHOPPING IN:
-                    </section>
-                    <section className="region-select">
+                    </Grid>
+                    <Grid item className="region-select">
                         Canada, $CAD, EN
-                    </section>
-                    <section className="footer-heading">
+                    </Grid>
+                    <Grid item className="footer-heading">
                         JOIN OUR MAILING LIST
-                    </section>
-                    <form>
-                        <input type="text" id="emailID" name="email" placeholder="Enter Email"/>
-                    </form>
+                    </Grid>
+                    <Grid item >
+                        <form>
+                            <input type="text" id="emailID" name="email" placeholder="Enter Email"/>
+                        </form>
+                    </Grid>
 
-                </section>
+                </Grid>
 
-                <section className="footer-info-left">
-                    <section className="footer-heading">
+                <Grid container item direction="column" className="footer-info-left">
+                    <Grid className="footer-heading">
                         GET HELP
-                    </section>
-                    <section className="footer-links">
+                    </Grid>
+                    <Grid className="footer-links">
                         Live Chat Now
                         <br />
                         Contact Us
@@ -40,8 +44,8 @@ function Footer() {
                         Special Orders
                         <br />
                         Size Guide
-                    </section>        
-                </section>
+                    </Grid>        
+                </Grid>
 
                 <section className="footer-info-center">
                     <section className="footer-heading">
@@ -85,7 +89,7 @@ function Footer() {
                     </section>
                 </section>
 
-            </section>
+            </Grid>
 
 
 
